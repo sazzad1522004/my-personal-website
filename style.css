@@ -1,0 +1,62 @@
+
+head{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.personal{height: 500px;
+    
+    
+}
+.half{
+    float: left;
+    width: 600px;
+    padding: 2%;
+    padding-left: 100px;
+    margin: 5%;
+    margin-top: 150px;
+    font-size: 25px;
+}
+.half img{
+    width: 100%;
+}
+.colour{
+    color: royalblue;
+}
+.ab{
+    font-size: 35px;
+}
+.pad{
+    margin-top: 15%;
+    
+}
+.button{
+    text-decoration: none;
+    background-color: royalblue;
+    font-weight: 700;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.personal{
+    background-image: url(image/header-bg.png);
+    background-repeat: no-repeat;
+}
+.link2{
+    text-decoration: none;
+    background-color: royalblue;
+    font-weight: 700;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+#and{
+    margin-top: 15%;
+}
+.bio{
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+}
