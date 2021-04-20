@@ -44,6 +44,7 @@ body{
 .personal{
     background-image: url(./image/header-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .link2{
     text-decoration: none;
@@ -59,4 +60,5 @@ body{
 .bio{
     background-image: url(./image/biography-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
