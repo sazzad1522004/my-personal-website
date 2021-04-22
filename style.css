@@ -76,6 +76,7 @@ section {
 
 .myImage {
     max-width: 40vw;
+<<<<<<< HEAD
 }
 .picture img{
     width: 90%;
@@ -123,6 +124,8 @@ section {
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
+=======
+>>>>>>> 67a3a8363278d0fbf1806e4f499eead9bb01d8bb
 }
 footer{
     text-align: center;
