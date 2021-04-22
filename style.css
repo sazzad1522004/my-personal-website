@@ -1,25 +1,47 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+}
 head{
     margin: 0;
 }
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.personal{
+    background-image: url(./image/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+.bio{
+    background-image: url(./image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
 
-.personal{height: 500px;
-    
-    
+.mywork {
+    background-image: url(./image/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+}
+.mywork h1 {
+    text-align: center;
+    font-size: 37.5px;
+    font-weight: 600;
 }
 .half{
-    float: left;
     width: 600px;
-    padding: 2%;
-    padding-left: 100px;
-    margin: 5%;
-    margin-top: 150px;
     font-size: 25px;
-}
-.half img{
-    width: 100%;
 }
 .colour{
     color: royalblue;
@@ -28,8 +50,9 @@ body{
     font-size: 35px;
 }
 .pad{
+    margin: auto;
     margin-top: 15%;
-    
+    max-width: 500px;
 }
 .button{
     text-decoration: none;
@@ -40,11 +63,7 @@ body{
     border-radius: 50px;
     font-size: 20px;
 }
-.personal{
-    background-image: url(./image/header-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .link2{
     text-decoration: none;
     background-color: royalblue;
@@ -53,18 +72,8 @@ body{
     padding: 10px 40px;
     border-radius: 5px;
 }
-#and{
-    margin-top: 15%;
-}
-.bio{
-    background-image: url(./image/biography-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.picture img{
-    height: 350px;
-    width: 450px;
-    padding-left: 20px;
-    margin: 30px;
-    float: left;
+
+
+.myImage {
+    max-width: 40vw;
 }
